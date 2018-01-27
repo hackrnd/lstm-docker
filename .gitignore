@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+.vscode/
+.project
+.pydevproject
+
+.env
+model_lstm.h5
+model_lstm.json
+tokenizer.pickle

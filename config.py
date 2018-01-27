@@ -1,0 +1,10 @@
+option 					= "message" 			# "message" for prediction of single utterance, "file" for prediction of utterance/s in csv file. 
+file_to_be_predicted 	= "pred1.txt" 			# .txt for "message", .csv for "file"
+encoding 				= "Windows-1252" 		# encoding of the input file
+utterance 				= "Description" 		# Label of the utterance in dataframe only for option "file"
+model 					= "model_lstm.json"	 	# model file, can be path too
+model_weights 			= "model_lstm.h5" 		# model wights, can be path too
+max_sent_len 			=  255 					# maximum length of utterance at which model was trained
+tokenizer_path 			= "tokenizer.pickle"	# tokenizer file for converting words to labels, 
+predicted_feature_name	= "Predicted" 			# predicted feature name
+path_to_prediction 		= "predicted.txt" 		# .txt for "message", .csv for "file"
